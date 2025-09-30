@@ -6,7 +6,7 @@
 #define RELAY1 16
 #define RELAY2 5
 #define RELAY3 0
-#define RELAY4 2
+#define RELAY4 4
 #define ANALOGINPUT A0
 #define IBUTTONPIN 4
 #define ANALOGINPUT2 14
@@ -29,3 +29,4 @@ unsigned long LEDblink1, LEDblink2, LEDduration, lastPhaseChange, cycleStart;
 int LEDphase = 0;
 byte buffer[8];
 bool lastAnalogState, pulse1State, pulse2State;
+
